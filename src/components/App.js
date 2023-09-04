@@ -26,7 +26,7 @@ export default function App() {
     </div>
   );
 }
-
+// this will change the state of the parent component
 const InputChild = ({ todo, todoList, setTodoList }) => {
   let [isEditBtnClicked, setIsEditBtnClicked] = useState(false);
   let [updatedTodo, setUpdatedTodo] = useState("");
